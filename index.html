@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="CNi576">
+	<title>Document</title>	
+	<style>
+		body{
+			background-color: #0f172a;
+			text-align: center;
+		}
+		h1{
+			color: #38bdf8;
+			text-shadow: 0 0 20px #38bdf8;
+		}
+		h2{
+			color: #ff007c;
+			text-shadow: 0 0 10px #ff007c;
+		}
+		img{
+			border-radius: 150%;
+			border: 4px solid white;
+			width: 300px;
+			height: 300px;
+			object-fit: cover;
+			box-shadow: 0 0 30px #38bdf8;
+		}
+		a{
+			text-decoration: none;
+		}
+		@keyframes move{
+			0% {transform: translateX(20px);}
+			100% {transform: translateX(-20px);}
+		}
+		a h1{
+			animation: move 1.5s ease-in-out infinite alternate;
+			color: #00ff00;
+			text-shadow: 0 0 20px #00ff00, 0 0 40px #00ff00;
+		}
+	</style>
+</head>
+<body>
+	<h1>编程侯老师</h1>
+	<h2>100万粉丝了😂<h2>
+	<img src="box.png" onclick="hackerAttack()";>
+	<a href="https://www.codinghou.cn">
+		<h1>
+			🔥点击传送🔥
+		<h1>
+	</a>
+	<script>
+		function hackerAttack(){
+			var n = 5;
+			for(var i=1;i<=n;i++){
+				alert("你上当了!关不掉吧？这是第"+i+"次警告");
+			}
+		}
+	</script>
+</body>
+<html>
